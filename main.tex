@@ -1,0 +1,58 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[hidelinks]{hyperref}
+\usepackage[margin=1.3in]{geometry}
+\usepackage{subfiles}
+
+\title{Mutation order relevance in pan-cancer genes}
+
+\author{Raul I. Coroban}
+
+\date{August 2020}
+
+\newcommand{\gfigure}[4]
+{
+	\begin{figure}
+      \begin{center}
+          \includegraphics[#3]{#4}
+          \caption{#1}
+          \label{Figure:#2}
+      \end{center}
+    \end{figure}
+}
+\newcommand{\figref}[1]{Figure~\ref{Figure:#1}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This is the third chapter from my Master Thesis (Automatic Game Generation). This chapter will provide a review of the past work on Procedural Content Generation. It highlights different efforts towards generating levels and rules for games. These efforts are grouped according to their similarity and sorted chronologically within each group.
+\end{abstract}
+
+\section{Summary}
+\subfile{1.summary}
+
+\section{Introduction of the subject, including the questions and/or hypotheses}
+\subfile{2.intro}
+
+\section{Methods how sources of information have been selected}
+\subfile{3.methods}
+
+\section{Presentation of the information}
+\subfile{4.data}
+
+\section{Critical discussion, including a personal view and perspective on the subject}
+\subfile{5.discussion}
+
+\section{Conclusion}
+\subfile{6.conclusion}
+
+\bibliographystyle{abbrv}
+\bibliography{references}
+\end{document}
