@@ -1,8 +1,8 @@
 \subsection{Chronological order of mutation impact disease evolution}
-We define the chronological order assuming any possible combination of event assortment. There is no golden order, although we hypothesise in terms of feasible outcomes, in which we rely on the existence of more or less favourable cases.
+We define the chronological order assuming any possible combination of event assortment. We assume there is no golden order for any set of events, when we hypothesise in terms of feasible outcomes, in which we rely on the existence of more or less favourable cases.
 \\
 
-Sufficient backing studies to confirm order are not yet available fully confirm a total order-driven system dynamic. However, some above projects have accurately identified the effects chronological order has in case evolution, which manifest the scenario is plausible. 
+Sufficient backing studies to confirm order is in control of the full dynamics of the system are not yet available, hence the hypothesis is not proven. However, some above projects have accurately identified the effects chronological order has in case evolution, which manifest the scenario is plausible. 
 \\
 
 In the same way the sequential occurrence is feasible, an unordered model (assumed up til now) can happen too. Furthermore, an hybrid system managing the dynamics of the clonal population can even find the balance among both. E.g. in [ref] we have observed order in CD47 and CD44 mutations is not relevant. Assuming a total-ordered model, this might be because their chronological order can be swapped without altering it. In a non-ordered model, the reason is trivial. Interestingly, the hybrid model (loosely ordered), accepts sequential order at some points, and gets more relaxed with synonymous ordered events. To simplify this estimation, we also assume no other interaction interfere with the model, albeit the scenario is far from probable. Event assorting evolution (and eventual branching) also opens up a discussion between linear and parallel metastasis progression models [Downloaded paper].
@@ -12,9 +12,6 @@ Chronological order establishment is the main requirement to unleash the next st
 \\
 
 However, in most cases, large heterogeneity is present amongst the clonal population which, via phylogenetic trees analysis, can present a starting scenario from which order can be retrieved [G] [Z]. Based on the studies above and curated knowledge [refs…], we know a full phylogenetic scenario displaying is challenging to retrieve, since the environment might contain a conglomerate of multiple divergent-evolved clones.
-
-Rebuilding:
-\cite{Attolini2010ACancer}
 
 Phylogenetics approaches:
 \cite{Beerenwinkel2005Mtreemix:Trees}, \cite{Rahnenfuhrer2005EstimatingScores}
@@ -37,10 +34,44 @@ Besides, meta knowledge can be added to the study to aid chronological organisat
 
 Based on an evolutionary argument, there is also a “weighting” effect on each mutation: E.g. Apoptosis control can initiate cancer. The more the progeny grows, the higher is the probability of alterations acquisition which enter the game of survival [X]. Therefore, alterations driving apoptosis should be tagged as more risky in terms of prognosis. Radical-stage-inducing events such as apoptosis, cooperation loss, proliferation triggers, metastasis, etc. are highly relevant for the cause.
 \\
-\\
+
+%Automata
+Defining a chronological system in which events are not strictly linear results in a branched scheme. Automata theory and Computational Tree Logic (CTL) model support this scheme.
+
+By treating each alteration event as a node in the model, chronology and cancer stage transition shall be represented and give us a straightforward view of the scenarios.
+------
 
 However, cancer complexity cannot be studied leaving interaction out. Clones build an established microenvironment in which, although might be lacking vital functions such as specific signal detection from external sources, communication amongst the members is still possible [A]. The sub clonal population is still present in the organism where the cancer developing, therefore this interaction must also be taken into consideration.
 
 
+% -------------
+% Pathways
 \subsection{Pathways}
-Stronger evidence for order constraints in pathways than in gene level order is no surprise, since P acts as a system, while G allows order irrelevance.
+%Grain
+The grain of the methodology is related to the defects it might encounter. Previously, gene-based approaches looking for a rule of chronological order offers a precise point of action if the discovery is made. Strictness of such models shall be controlled by hyperparameters which tolerate divergence, e.g. interchangeable orders, irrelevant items (noise) and so on.
+%Drawbacks
+This drawback seems to be solved on pathway-based due to its system-like behaviour: if any member of the pathway gene set is altered, this affects the full network which has any interaction with it, which eventually triggers a cascade effect, disrupting all systems directly related to them. Therefore, looking at the problem from a \emph{wider} view, whose focus now is on setting order among pathways instead of genes, arises promising results, as proven in many studies.
+%Strictness
+In terms of restrictions, stronger evidence for order constraints in pathways than in gene level order is no surprise, since pathway-driven approaches act as systems, while gene-based allow order swap among members.
+\\
+
+%Cannot rely only on frequency
+\cite{Cheng2012AGliomagenesis} uses a hybrid method for order establishment. Via CCF alone, the inference can only reach a few steps, elucidating 2 pathways ordering before ambiguities arise. This uncertainty is then solved using \emph{in vitro} assays, in order to enhance the available samples. Clonal heterogeneity plays here an important role: It is probable that not all the stages of the cancer evolution are present in the samples, which opens a void in the available knowledge. As a result, either the assortment remains incomplete or meaningless.
+\\
+
+% Cycle speed
+Also, frequency-like thresholds can act as a filter for samples which are truly significant, but not frequent enough to be taken into consideration. This flaw can be overcome by the fact that a specific case ML (missing-link) recurrence is proportional to the clone's fitness, i.e. the less frequent, the more other populations have won the survival race and replaced ML. It is also bound to cell's cycle speed that transition from pre-ML to post-ML through ML itself could have happened in a time period insufficient for its measurement.
+\\
+
+Also, the fact G might shadow the true ordering due to multiple genes belonging to the same pathway can be related to gene order interchangeability within the same pathway, i.e....
+\\
+
+Being able to identify several subtypes within a cancer...
+%First: Progression, prognosis and survival.
+This fact introduces two hallmarks: First, specific subtype tracing and analysis can confer us further insight about survival. Although the general lines of cancer progression follow the same line within a cancer type, each category has a unique set of characteristics. These aid to the treatment point, unresponsiveness troubleshooting, prognosis and survival estimation, etc.
+
+Properties can be derived from in-depth pathway analysis, and terms as expected time to dysregulate next component or merely the fact of knowing which point of the chronology is actionable sets a huge advantage in treatment.
+\\
+
+%Second: Relative importance
+The second hallmark is related to subtype progression. Relative importance of the driver mutations can be assigned to category. E.g. RB and TP53 pathways are related to early stages of oncogenesis because their alteration interferes with normal cell cycle and growth. These events can hold a higher priority, since the sooner on the timeline we found ourselves and have the opportunity to act on, the less (unexpected) difficulties we encounter down the line.
