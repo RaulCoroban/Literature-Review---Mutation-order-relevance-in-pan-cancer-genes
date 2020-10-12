@@ -1,118 +1,160 @@
 \subsection{Chronological order of mutation impact disease evolution}
-Given experimental trials observations, an order-based scheme could be portrayed solely on the gathered data, i.e. any special case would be feasible among patients, however not all might be cover by the study.
+Given experimental trial observations, an order-based scheme could be portrayed solely on the gathered data, i.e. any special case would be feasible among patients, however not all might be cover by the study.
+\\
+
+This section gathers conclusions from works analyzing Colorectal Cancer (CRC), Breast Cancer, and Myeloproliferative Neoplasms (MPN) which include distinguishing cases of gene mutation order.
 
 \subsubsection{Order preference in Colorectal Cancer (CRC)}
-Colorectal cancer is one of the best approaches for studying cancer evolution. They allow a full display of genetic alterations which eventually develop a neoplasm. Besides, the availability of differential scenarios such as benign and malignant states of the disease and their study, allows for full genomic progression analysis. Also, its analysis as a monoclonal tumour \cite{Fearon1987ClonalTumors} eases the discussion in this review.
+\label{gene-crc}
+\textit{RAS} gene and \textit{p53} gene mutations studies in CRC tumor phenotypes \cite{Gerstung2011TheTumorigenesis} were performed in mice via overexpression of \textit{RAS} analysis. More specifically, they focused on the oncogenic allele of \textit{RAS} (H-RasG12V, early-stage) and p53 (late-stage) pathway disruptor p53DD.
+
+%The mice - 2 genes only
+Order \textit{RAS}-before-\textit{p53} resulted in highly malignant metastatic tumors since the expression of a fundamentally active \textit{RAS} followed by a p53 inactivation yields cell's proliferation capacity. These cells show poor differentiation, while it prevailed at the invasion of muscular and adipose tissues, kidneys, and pancreas.
+
+The opposite occurrence of events (\textit{p53}-before-\textit{RAS}) led only to benignant cases due to the opposite reasons: proliferation was lowered and no metastasic signs.
 \\
 
-Studies like \cite{Fearon1990ATumorigenesis} show a model which scrutinises colorectal neoplasia features, from oncogene  tumour-activation -suppressor (malignant and benignant events, respectively) to phenotypic effects, visible at the late stages of the disease.
-Via somatic alterations analysis performed at various stages of CRC formation it is stated that there is a progression from adenomas to carcinomas, which in turn end up in metastasis.
+Up to this point, chronological order shows an impact on the condition evolution in terms of phenotypical aggressiveness and patient condition classification. Yet this is a simple scenario involving a couple of genes occurrence swap.
 \\
 
-The model chronologically puts first the loss of 5q region, which triggers morphology mutation from normal epithelium to a hyperprolifelative one. Inheritance of such alteration is commonly known as \textit{familial adenomatous polyposis} (FAP), whose impact on our hypothesis shall be discussed later. 5q area loss is present both in FAP patients and non-FAP patients, therefore it is labelled as an event occurring in early adenoma stages.
+%Switch to multi-genes
+When analyzing somatic alterations analysis at various stages of CRC formation \cite{Fearon1990ATumorigenesis}, it is found that there is a progression from adenomas to carcinomas, which eventually ends up in metastasis. Several alterations are involved in this new scenario. By inspecting tumor tissues from different stages of the disease, the study deduces an ordering.
 \\
 
-Next, a mutated \textit{ras} gene is observed to confer oncogenetic properties to cells of a preexisting small adenoma. More than 50\% of cases with large tumour tissues ($>$1cm) contain the \textit{ras} gene alteration, while is found in less than 10\% of small carcinomas ($<$1cm). Clonal expansion acts at this point, hence \textit{ras}\´ mutation can be tagged as a trigger of the progression from small adenomas to larger ones.
+%The ordering
+\begin{enumerate}
+    \item The inference puts first the loss of the 5q region, which triggers morphology mutation from normal epithelium to a hyperproliferative one.
+    \item Next, a mutated \textit{RAS} gene is observed to confer oncogenetic properties to cells of a preexisting small adenoma. More than 50\% of cases with large tumor tissues ($>$1cm) contain the \textit{RAS} gene alteration, while is found in less than 10\% of small carcinomas ($<$1cm). Hence \textit{RAS}\´ mutation can be tagged as a trigger of the progression from small adenomas to larger ones.
+    \item Thirdly, 18q region loss occurs. This region has been mapped to the tumor-suppressor gene DCC, whose expression is reduced or absent in the majority of CRCs. It is present in 50\% of late adenomas and 70\% of carcinomas.
+    \item The loss of region 17p within a chromosome comes in the last place. It is found in $>$75\% carcinomas and $<$30\% in adenomas. This region contains the p53 which is responsible for inhibiting colorectal tumor growth. This event is often related to evolving from an adenoma to carcinoma.
+\end{enumerate}
+
+All in all, the chronological ordering of events is as follows:
+
+\begin{equation}
+5q\ loss\ \rightarrow\ \textit{RAS}\ mutation\ \rightarrow\ 18q\ loss\ (DCC)\ \rightarrow\ 17q\ loss\ (p53)    
+\label{eq:crc}
+\end{equation}
+
+%Comment order
+5q region loss or RAS gene mutations are more present in the early stages of the condition. In contrast, 18q (DCC) and 17p (p53 gene) allelic deletions are often seen at late stages of the tumor. However, there are cases where chronological order strictness is broken. E.g. 17p loss is expected to happen at the late stages of the CRC, but it has been also found in early adenomas in other analysis \cite{Diep2006TheChanges}. 18q loss has also been observed in tumor samples and no \textit{RAS} mutation could be found (which should have happened before 18q loss).
+
+Both cases in which events happen in another order \textit{than expected} invalidate the initial inferred order, which leads the study to conclude it is accumulation rather than order of occurrence what is more likely to be relevant in CRC progression.
+
+The majority of cases support the inferred ordering, but some cases do not follow the hypothesis.
 \\
 
-Third, 18q region loss has been mapped to tumour-suppressor gene DCC, whose expression is reduced or totally absent in the majority of CRCs. It is present in 50\% of late adenomas and 70\% of carcinomas.
-\\
-
-Last, loss of region 17p within a chromosome is found in $>$75\% carcinomas and $<$30\% in adenomas. This region contains the p53 which is responsible for inhibiting colorectal tumour growth. This event is often related to evolving from an adenoma to a carcinoma.
-
-5q regions loss or ras gene mutations are more present in early stages of the condition. On contrast, 18q (DCC) and 17p (p53 gene) allelic deletions are often seen at late stages of the tumorigenesis. This summary suggests there might be an order involved in the mechanics of the model. However, there are cases where chronological order strictness is challenged. E.g. 17p loss is expected to happen at late stages of the CRC, but it has been also found in early adenomas in some analysis within this study \cite{Fearon1990ATumorigenesis}, and others \cite{Diep2006TheChanges}. In other cases, 18q loss is observed in a tumour sample and no \textit{ras} mutation could be found (which should have happened before 18q).
-\\
-
-Then the study concludes it is accumulation rather than order of occurrence what is likely to be relevant for CRC progression. However, a preference of the mutation occurrence is set, since the alterations, despite counterexamples, are related to a stage of the condition, as a majority of cases support the inferred assortment.
-\\
-
-On the other hand, focusing only on the \textit{ras} gene and \textit{p53} gene mutations mentioned above, the first mention to order impact on tumour phenotypes [ref] were performed in mice via overexpression of \textit{ras} analysis. More specifically, the oncogenic allele of \textit{ras} (H-RasG12V, early stage) and p53 (late stage) pathway disruptor p53DD were studied.
-
-Order \textit{ras}-before-\textit{p53} resulted in highly malignant metastatic tumours, since the expression of a fundamentally active \textit{ras} followed by a p53 inactivation yields cell's proliferation capacity. This population shows poor differentiation, while it prevailed at invasion of muscular and adipose tissues, kidneys and pancreas.
-
-The opposite occurrence of events (\textit{p53}-before-\textit{ras}) led only to benignant cases due to the opposite reasons: proliferation was lowered and no metastasic signs.
-\\
-
-Up to this point, chronological order seems to be impacting the condition evolution in terms of phenotypical aggressiveness and patient condition classification. Any well-established order model of events cannot be inferred, since the chronological occurrence of alterations is not unique. Although it is true a "likeliness to happen within a stage" can be assigned to an event based on the oncogenetic properties it might carry (e.g. mestastasis drivers are expected chronollogically late), this is not sufficient proof to support any modelling.
+%No moel conclusion
+A well-established timeline of events could be inferred since the chronological occurrence of alterations is not unique. Although it is true a "likeliness to happen within a stage" can be assigned to an event based on the oncogenetic properties it might carry (e.g. metastasis drivers are expected chronologically late), this is not sufficient proof to support any modeling.
 
 \subsubsection{Sequential model in Breast Cancer}
-Studying breast cancer via physically separated spaces contemplate clonal population migration from breast (primary site) to bone (secondary site) using multi-compartment analysis \cite{Ascolani2019ModelingMatter}. The underlying mathematical modelling aims to show how the number of accumulated driver mutations and their order when altering cell’s metabolic processes are highly relevant for cancer progression, as the events' arrangement sequentially unlock cancerous properties in the cell' behaviour. 
+\label{gene-breast}
+Studying breast cancer via physically separated spaces aims to study clonal population migration from the breast (primary site) to bone (secondary site) using multi-compartment analysis \cite{Ascolani2019ModelingMatter}. The underlying mathematical model aims to show how the number and order of accumulated driver mutations are relevant for cancer progression.
 \\
 
-More specifically, compartment migration has been set so that it would be to be extremely rare if the clones have not acquired the alterations established by the model, i.e. wandering to the next stage requires a set of mutations, collected at any precedent phase. Eventually, the mathematical model tracks the percentage of the clonal population which has obtained certain mutations in each compartment, hence
-reflecting tumorgenesis and prognosis both when considering a strict mutation order-based evolution and when no order is kept.
+More specifically, the model sets the migration from one compartment to the next one is extremely rare if the clones have not acquired the required alterations, i.e. wandering to the following stage requires a set of mutations, collected at any precedent phase. Then, the analysis tracks the mutation percentage in the clonal population from each compartment, hence
+reflecting tumor evolution.
 \\
 
-For the order-based model, a set of four driver mutations are identified as significant in the following sequence: EPCAM, \{CD47, CD44\} MET. First compartment contains EPCAM, which represents the location in the breast, as the gene is involved in mammary cells connectivity. CD47 and CD44 are located in the circulatory system, regulating macrophage phagocytosis avoidance and tumour progression, respectively. This compartment represents the next stage of the condition, the vascular system invasion. Finally, the last step is triggered by MET driver mutation, which is highly correlated with metastasic behaviours, and leads to extravasation and rooting in the bone tissue.
+For the order-based model, a set of four driver mutations are identified as significant and assorted in the following compartments:
+
+\begin{enumerate}
+    \item The first compartment, which represents the location in the breast, requires EPCAM, as the gene is involved in mammary cells connectivity and epithelial–mesenchymal transition \cite{Kalluri2009TheTransition}.
+    \item CD47 and CD44 regulate macrophage phagocytosis avoidance and tumor progression, respectively, and are located in the compartment representing vascular system invasion. A particularity of the study is that CD47 and CD44 are both effective drivers whose order one to each other is irrelevant for prognosis. Therefore, they can be collapsed and considered as a single event, and keep an order relation with the remaining alterations in the set (EPCAM and MET).
+    \item Finally, the last step is triggered by MET driver mutation, which is highly correlated with metastasic behaviors, and leads to extravasation and rooting in the bone tissue.
+\end{enumerate}
+
+Which deliver the following order: 
+\begin{center}
+EPCAM $\rightarrow$ \{CD47, CD44\}\footnote{Both mutations belong to the same compartment, and they are both required for the model to progress to the next compartment} $\rightarrow$ MET
+\end{center}
+
+
+The cancer progression has been limited by a forced order of events, however, the results shed no light on a strict order existence. Instead, it showed
+a bottle-neck effect occurrence which hinders the regular speed of compartment propagation and, therefore, evolution. 
+
+Besides, CD47 and CD44 chronological order interchangeability rather support a loose or non-existent order. The prognosis shall then be tackled based on EPCAM and MET alteration events, delivering a similar result as in Section \ref{gene-crc} when ordering RAS and p53 mutations. 
+
+Accomplishing such an inference, at best, could lead a differentiation amongst sub-cases based on a \textit{which-happened-first} principle at a gene level.
+
+\subsubsection{Stratification clarity in Myeloproliferative Neoplasms (MPN)}
+\label{gene-mpn}
+Co-mutation of genes TET2 and JAK2 are studied in Myeloproliferative Neoplasms \cite{Ortmann2015EffectNeoplasms}. JAK2-first patients being detected up to one decade before TET2-first subjects suggest clonal evolution is different and clinical symptoms more severe: When stratifying patients, JAK2-first patients are more likely to develop polycythemia vera or thrombosis \cite{Levine2007JAK-2Disease}. By contrast, in TET2-first patients show a lower risk of these syndromes due to TET2's influence on the transcriptional response of JAK2. Due to this blocking effect, an arrangement could be set. It provides proof for considering the order effect on evolution.
 \\
 
-A particularity of the study is that CD47 and CD44 are both effective drivers whose order is irrelevant for prognosis. However, they can be collapsed and considered as a single event, and still keep an order relation with the remaining alterations in the set (EPCAM and MET).
+The general highlight of this scenario is that the initial mutation of \textit{which-happened-first} is being responsible for an epigenetic landscape alteration. Three scenarios are contemplated where the initial mutation:
 
-Still, a lax model which allows such chronological order interchangeability can approximate to a no-order model.
+\begin{itemize}
+    \item Alters the cell's composition and, hence influences the starting environment where its progeny will develop.
+    \item May mandate influence which mutations can be acquired next, impacting also on the pathogenesis.
+    \item Prevents/Promotes the second mutation (just like TET2 hinders JAK2).
+\end{itemize}
+
+% ---------------------------------------------
+% PATHWAYS
+% ------------------------------------------------------
+\subsection{Order results in diverse pathway dysregulation scenarios}
+Driver mutations are alterations of specific genes responsible for the deregulation of pathways \cite{Ascolani2019ModelingMatter}. Since every gene disorder event has a consequence in the pathway which it belongs to, pathways are a plausible aim to follow in terms of order research.
+\\
+\subsubsection{Extracting a \textit{Global} model from specific conditions}
+\label{path-global}
+The \cite{Gerstung2011TheTumorigenesis} study focuses on Colorectal Cancer (CRC), Pancreatic Cancer (PC), and Primary Glioblastoma (PGL) to create an ordering of pathway dysregulation for each.
+The procedure first infers mutation order at the gene level, later maps the genes to pathways, and finally assorts said pathways' dysregulation orders in the same way as alteration events. Taking order inferences from the three specific conditions and overlapping them results in a pan-cancer maximal model, i.e. collects case-specific inferences and builds a general conclusion. The generic model agrees on the following order:
+
+\begin{enumerate}
+    \item Apoptosis-related pathways is the first dysregulation event occurring in the alteration.
+    \item In the second place, tissue development, cell growth control, and proliferation are related to TGF-b and KRAS pathways, which together with G1/S phase transition control, are established as an intermediate stage in a condition development.
+    \item Also, events happening near the end of each chronology are DNA damage control, WNT/Notch signaling, JNK, and invasion-related pathways. DNA damage is placed in intermediate-end stages, while the rest are all found in the most advanced (late) stages.
+\end{enumerate}
 \\
 
-The study concludes there's a slower dynamics in reaching the metastasis when the system is ordered, specifically for the constraint the model introduces by requiring a set accumulation of mutation in order to evolve to the next stage. 
-
-
-\subsubsection{Stratification clarity in Myeloprolifertive Neoplasms}
-\cite{Herbet2012AcquisitionPhenotypes} focuses on myeloprolifertive neoplasms allowing an mean quantity of somatic alterations of 5 to 10. Co-mutation of genes TET2 \cite{Delhommeau2009MutationCancers} and JAK2 V617F \cite{Levine2007JAK-2Disease} were studied, based on a cohort using subjects holding both alterations. Based on which-happened-first approaches, different conditions properties were derived and associated to mutation order. JAK2-first patients being detected up to one decade  before TET2-first subjects suggested symptoms arise in different time-scales depending on alteration order acquisition. Besides, while stratifying patients thrombosis and polycythemia vera development were more likely for JAK-2 patients.
-
-This study concluded intrinsic epigenetic mechanisms caused by events taking place in a specific chronological order led to clones acquiring the same two mutations and showing distinct molecular and biological properties, which eventually resulted in divergent evolution of the disease. The properties —most likely malignant— of a clone is to reflect the sum of all the driver mutations acquired, therefore shadowing the chronological order approach.
-
-The general highlight of this scenario is that the initial mutation or whichever-came-first in the case we are analysing, can be responsible of an epigenetic landscape alteration, as TET2 does when it happens before JAK2. Due to the prevention of JAK2 of distorting the system down the line via up-regulation, the effect of such variance resulted in an attenuation of symptoms.
+Generally, the 3 different cancer types begin with mutations impacting apoptosis and end up with mutations in genes belonging to pathways related to invasion\footnote{This conclusion has already been made before in gene-based ordering models. Since the pathway-based order inference is mapped straight from a gene alteration ordering, this is no surprise (more in Discussion \ref{disc:path}).}. Therefore, the most optimistic ordering we could infer for pathways needs to rely on cancer general evolution, e.g. we would put first in the chronology a pathway related to apoptosis than a pathway related to metastasis.
 \\
 
-
-\subsection{Chronological order results in diverse pathway dysregulation scenarios}
-
-Driver mutations are mutations of specific genes responsible for the deregulation of pathways \cite{Ascolani2019ModelingMatter}. Since every gene disorder event has a consequence in the pathway which it belongs to, pathways are a plausible aim to follow in terms of order research.
+A challenge of such generalization is that intermediate events such as alterations impacting DNA damage control are more difficult to order than events near the \textit{extremes} of the timeline such as tumorigenesis and metastasis inducers since the latter have an \textit{expectancy} factor, i.e. they are forecasted to be at the very beginning/end of the timeline.
 \\
 
-A study \cite{Gerstung2011TheTumorigenesis} covers a wide collection of cancers to establish a chronological order among pathway mutation via a probabilistic graphical mode. It mainly relies on gene level order inference, later mapping of genes to pathways, and finally assorts pathway dysregulation events. More precisely, the study focus on colorectal cancer, pancreatic cancer and primary Glioblastoma to create an ordering of pathway dysregulation. All the specific assays first infer an event assorting for individual genes which later translate to pathway chronological order alteration, depending on particular gene belonging.\\
+==============================================================================================================================================================================================================================================================================================================================================================================
+Corrected up til here
+==============================================================================================================================================================================================================================================================================================================================================================================
 
-Taking order inferences from each specific condition and overlapping them results in an unified model which acts as a pan-cancer maximal model, i.e. collects inferences from every special case and builds a general model.
+As a final remark of the study, pathway-based order constraints are considered stronger than for gene-based order constraints.
+Temporary speaking, changes within a full pathway driven by any member alteration take longer to be reflected than it would take a gene dysregulation to directly impact another gene's expression. Is this how selective pressure is concluded to act at pathway level.
 \\
 
-\subsubsection{CRC}
-Colorectal cancer mutated genes have been mapped to pathways. Apoptosis and Wnt/Notch signaling pathways are both hit by the APC mutation, therefore they occur together. The same situation happens with DNA damage control and JNK signaling, as TP53 belongs to both.
+Pathway-based approaches also have a lower level of noise than in gene-based temporal order analysis. Having one or more mutations in genes belonging to the same pathway results in the pathway itself being dysregulated. Therefore, the simplification of considering a pathway disruption as a container of several alterations allows for an holistic perspective which would reduce the ordering procedures strictness. The frequency in which any pathway has been altered in all the analysed samples reaches a mean of $>$70\%. In contrast, when looking at a gene level, few genes reach a mutation frequency higher than 50\%. It is in fact their synergy effect within the pathway which rises the alteration frequency. A clear example in GBM shows no gene has a mutation frequency above 35.8\%, but pathway dysregulation reaches 79.2\%. Then, analysis from a more general perspective becomes helpful.
 
-\subsubsection{Global}
-The generic model agrees on Apoptosis-related pathways as the first dysregulation event occurring in the alteration. 
+\subsubsection{Pathway dysregulation belonging to a condition's stage}
+Mapping the altered genes effects to the signaling pathways based on the mutations belonging has also been studied in \cite{Cheng2012AGliomagenesis}. Pathway alteration is assumed to happen when \textit{any of the members} of the set of genes belonging to said pathway is altered. Signalling pathways P53, PI3KC1/AKT, PI3KC2, RAS, and retinoblastoma (RB) in Glioblastoma Multiforme (GBM) disease are the main focus of the study. Their analysis concluded:
 
-On the second place, tissue development, cell growth control and proliferation are related to TGF-b and KRAS pathways, which together with G1/S phase transition control, are established as an intermediate stage in a condition development.
+\begin{enumerate}
+    \item The RB pathway is involved in proliferation, apoptosis and differentiation events of the cell \cite{Du2012TheTherapeutics}, and study's assays have identified it as an early-stage alteration event during gliomagenesis. Its disruption is consistent with G1/S checkpoint alteration, which eventually triggers oncogenesis \cite{Bertoli2013ControlPhases}.
+    
+    Setting RB chronologically first also agrees with the \textit{global} model established in section \ref{path-global}, strengthening the general conclusion of a pathway ordering based on stage belonging.
+    
+    \item TP53 (P53 pathway) mutation is also tagged early, since its malfunction is related to inability to control cell growth and proliferation.
+\end{enumerate}
 
-Also, events happening at the end of each chronology are DNA damage control, WNT/Notch signalling, JNK and Invasion-related pathways, all found in the most advanced (late) stages.
-One of the main conclusions is that pathway order constraints are way stronger than gene-level constraints.
-\\
+The remaining events could not be pinpointed in a timeline due to the variety of cases. Not finding a consensus among the samples results in not being able to complete the timeline with all the relevant events, and even to doubt the reliability of an established chronology when counterexamples are present.
 
-Another study \cite{Cheng2012AGliomagenesis} follows the same approach: classification of the altered genes effects into the signaling pathways based on the mutations belonging. As an enhancement of a previous gene-focused approach \cite{Attolini2010ACancer}, this model assumes the pathway alteration happens when any of the members of the set of genes belonging to said pathway is altered. TP53, PI3KC1/AKT, PI3KC2, RAS, and RB signalling pathways in glioblastoma multiforme (GBM) disease are the main focus of the work.
+Despite the ability of relating an alteration occurrence to its most likely stage, constraints could be set amongst the events, e.g. RAS alteration needs to occur before AKT initiates tumorgenesis, then RAS $\rightarrow$ AKT. Such inferences could be used in the \textit{which-happened-first} approach in order to discern amongst cases within conditions, since we have observed tuples of events occurring in different order can also be indicative of divergent cancer prognosis.
 
-The retinoblastoma (RB) signalling pathway is involved in proliferation, apoptosis and differentiation events of the cell \cite{Du2012TheTherapeutics}, and study's assays have identified it as an early-stage alteration event during gliomagenesis. Its disruption is consistent with G1/S checkpoint alteration, which eventually triggers oncogenesis \cite{Bertoli2013ControlPhases}.
-
-TP53 mutation is also tagged early, since its malfunction is related to inability to control cell growth and proliferation.
-
-The remaining assortments are established via \emph{in vitro} assays, where dependencies amongst events are set, e.g. AKT cannot initiate tumorgenesis until RAS alteration occurs.
-
-\\
-
-A particular finding involving pathway-based approaches is that their level of noise is lower than in gene-based temporal order analysis, mainly because of the similar effects single gene alterations belonging to the same pathway have. This has been reflected in the form of weaker orderings in the pathway-based approach, in which 66,7\% of the orderings occur on a frequency $>$70\%, than in the gene-based one, in which frequency equals 40\%.
-
-Besides, ordering of genes has an extra flaw: theoretically true assortment can be shadowed by the fact multiple genes belong to the same pathway.
-
-Also, important anomalies which could be clinically actionable arisen independently from pathway dysregulation can be hidden in pathway-driven ordering.
-
+% ---------------------------------------------
+% INHERITANCE
+% ------------------------------------------------------
 \subsection{Inheritance considerations}
-Inheritance of a single mutated gene might unleash the predisposition to CRC in two different outcomes \cite{Kinzler1996LessonsCancer}.
-Since the dawn of high-throughput data, many inherited risk alleles have been identified across cancer subtypes, and increase the probability of developing a disease, therefore, investigating carriership is crucial for cancer management and prevention in both patients close-degree relatives.
+When assuming chronological order of mutations, the occurrence of a circumstance happening out of its \textit{expected time}, supposes a problem to the entire timeline. For example, assuming \textit{RAS} mutation always happens before \textit{p53} in a model (Eq. \ref{eq:crc}), if there is a case where \textit{p53} has been inherited already altered, such order is broken, and the progression of the case might become complex or misleading.
+\\
+
+Here is where heritage gains relevance in order-based models, since the inheritance of a single mutated gene might trigger the predisposition to a condition and result into different outcomes \cite{Kinzler1996LessonsCancer}.
+Investigating carriership is crucial for cancer management and prevention in both patients and close-degree relatives.
 \\
 
 Studying CRC cases in \cite{DeLaChapelle2004GeneticCancer}, make a clear distinction between high- and low-penetrance allele mutations, appraising its understanding eases drug target development and preventive strategies. 
 
-Several alleles have been highlighted as specifically driving the condition to a different stage. APC alleles are related to Familial Adenomatous Polyposis (FAP), MMR mutations are indicative for the Lynch Syndrome, then AXIN2, POLD and TGFβR2 alleles show up in familial CRC and LKB1, SMAD4 and BMPR1 alleles in hamartomatous polyposis.
+Several alleles have been highlighted as specifically driving the condition to a different stage. APC alleles are related to Familial Adenomatous Polyposis (FAP). In Section \ref{gene-crc}, the study \cite{Fearon1990ATumorigenesis} already established a timeline (Eq. \ref{eq:crc}) in which events occur chronologically. The inheritance of the alteration triggering tumorgenesis happens to be positioned at the very beginning of the timeline, hence not distorting the \textit{expected} tumorgenesis of the condition.
 \\
 
-Another common condition is breast cancer. Variants in BRCA1 and BRCA2 alleles are considered the main causes of Hereditary Breast and Ovarian Cancer syndrome (HBOC) \cite{Turnbull2008GeneticFuture} \cite{Foulkes2003GermlineCancer} \cite{Mavaddat2013CancerEMBRACE}.
+However, if the alteration event were to belong to the very middle of the timeline, it would have clouded the inference of a chronology, or even pivoted elements within the arrangement. We can see this case in Breast Cancer, where mutations in BRCA1 and BRCA2 tumor-suppressor genes impact DNA double-strand repair system \cite{Turnbull2008GeneticFuture} \cite{Foulkes2003GermlineCancer} \cite{Mavaddat2013CancerEMBRACE}. The DNA damage control disruption has been found to belong to intermediate stages of the condition \cite{Gerstung2011TheTumorigenesis}.
 
-BRCA-related biomarkers, among others of medium-penetrance like PALB2, ATM, CHEK2, etc... can be present at birth and significantly increase the risk of breast, ovarian and other cancers.
-
-However, the study concludes that, although the highlighted variants can be considered breast cancer predisposition factors a large 70\% still remains unexplored.
+BRCA-related biomarkers can be present at birth, therefore, when analyzing the samples, this information should be used to correct the timeline, because otherwise the BRCA alteration events would be tagged as \textit{early}.
